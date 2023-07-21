@@ -1,0 +1,57 @@
+.main-wrap {
+  display: flex;
+  height: calc(100vh - 70px);
+}
+.side-bar {
+  position: fixed;
+  top: 0;
+  width: 200px;
+}
+.page-wrap{
+  width: calc(100% - 200px);
+  margin-left: 200px;
+  padding: 1rem;
+  padding-top: 3rem;
+  background: #f3efea;
+  position: relative;
+}
+.navbar{
+  margin-left: 200px;
+  height: 70px;
+}
+.sidebar-logo{
+  width: 65px;
+  padding: 25px 10px 0;
+  background: #fff;
+  border-radius: 50%;
+  margin-top: 20px;
+  height: 65px;
+  object-fit: contain;
+}
+.side-bar{
+  background-color: #3f9ced;
+}
+.nav-link{
+  color: #fff;
+}
+.card{
+  box-shadow: 0px 3px 18px 0 rgba(0, 0, 0, 10%);
+  border: 0;
+  cursor: pointer;
+}
+.card-body{
+  padding: 3rem;
+}
+.dash-wrap .card-body{
+  text-align: center;
+  padding: 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+img.card-icon {
+  width: 85px;
+}
+.form-group{
+  margin-bottom: 20px;
+}

@@ -1,0 +1,19 @@
+{
+    "tasks":[
+        {
+            "batchName": "Batch A",
+            "taskName": "Javascript Datatypes",
+            "taskDesc": "List all the Datatypes with Example"
+        },
+        {
+            "batchName": "Batch B",
+            "taskName": "Javascript Fetch",
+            "taskDesc": "Using Fetch method list the data in table"
+        },
+        {
+            "batchName": "Batch C",
+            "taskName": "React - useState, useEffect",
+            "taskDesc": "Using useState and useEffect show an Example"
+        }
+    ]
+}
